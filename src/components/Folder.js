@@ -10,7 +10,7 @@ function Folder({ explorer }) {
         <div
           className="folder"
           onClick={() => {
-            setExpand(true);
+            setExpand(!expand);
           }}
         >
           {" "}
